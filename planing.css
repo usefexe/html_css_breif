@@ -3,16 +3,118 @@
     justify-content: space-between;
 }
 .head1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 40px;
   p{
-   
+   margin-bottom: 0px !important;
+   font-family:arial  sans-serif;
+   padding-bottom: 0;
     color: #FF6B2C;
     font-weight: bold;
     margin-bottom: 10px;
   }
   h1{
-  font-family: "Alfa Slab One", serif;
+    margin: 0px;
+  font-family: arial  sans-serif bold ;
     letter-spacing: 0cap;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 800;
+    
   }
+  x{
+    color: rgb(101, 100, 100);
+    font-family:arial  sans-serif;
+  }
+}
+body {
+ 
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #F7F8FA;
+}
+.head2{
+  border-radius: 11px;
+  margin-right: 40px;
+  margin-top:70px ;
+  padding: 10px;
+  height: 28px;
+  align-items: center;
+ display: flex;
+ gap: 17px;
+ background-color: #ffffff;
+}
+i{
+  font-size: 10px;
+}
+.tableau{
+  margin: 40px;
+  background-color: rgb(251, 252, 252);
+}
+.prd{
+  display: flex;
+  flex-direction:column ;
+  
+}
+.main-card{
+  
+ 
+  margin-bottom: 50px;
+  p{
+    margin: 0px;
+    font-family: Arial sans-serif;
+    font-weight:bold ;
+  }
+  span{
+     margin: 0px;
+    color: gray;
+  }
+}
+.headtab{
+  margin-left: 190px;
+  display: flex;
+  gap: 10px;
+}
+.headel{
+  width: 132px;
+  p{
+    margin-left: 50px;
+    margin-bottom: 3px;
+    font-family: Arial sans-serif;
+    font-weight: 800;
+  }
+}
+.taody{
+  display: flex;
+  gap: 120px;
+
+}
+.nmrcrd{
+  p{
+    margin: 5px 0px !important;
+    font-weight:800 ;
+    font-family: Arial sans-serif;
+    
+  }
+  background-color: #ffb290;
+  border-radius: 10px;
+ 
+  li{
+    list-style: none;
+    
+  }
+  span{
+    font-weight: 600;
+  }
+  padding:  5px 15px;
+  li{
+    color: rgb(112, 112, 112);
+  }
+}
+.ornjcrd{
+  span{
+   color: #FF6B2C;
+  }
+  border-left:5px solid #FF6B2C ;
 }
