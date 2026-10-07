@@ -19,6 +19,7 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
+  
 }
 
 a {
@@ -410,11 +411,68 @@ button:focus-visible {
     gap: 16px;
     margin: 32px;
     margin-right: 32px;
-    background: linear-gradient(#fefefe, #f9966b);
+    
     width: 400px;
     height: 450px;
     
     border-radius: 12px;
+  }
+  li{
+    display: inline;
+  }
+  .hd{
+    margin-left: 500px;
+    margin-top: 30px;
+    h3{
+      color: #FF6B2C;
+    }
+    
+  }
+  input{
+       height: 40px;
+       border:1px solid gray;
+       border-radius: 5px ;
+       box-shadow: #4B5563;
+       width: 300px;
+        border: 1px solid #E5E7EB;
+    }
+    
+
+    textarea{
+         height: 40px;
+       border:1px solid gray;
+       border-radius: 5px ;
+        width: 300px;
+       box-shadow: #4B5563;
+        border: 1px solid #E5E7EB;
+    }
+    button{
+      background-color: #FF6B2C;
+      border: none;
+      height: 40px;
+      width: 150px;
+      border-radius: 20px;
+
+    }
+    h4{
+      color: #FF6B2C;
+    }
+}
+.info{
+  p{
+    background-color: #ffffff;
+    margin: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+   border: 1px solid #E5E7EB;
+  }
+  i{
+    margin: 5px;
+    color: #FF6B2C;
   }
 }
 
